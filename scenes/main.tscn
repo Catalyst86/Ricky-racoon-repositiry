@@ -3,37 +3,57 @@
 [ext_resource type="Environment" uid="uid://cw1ricky1env" path="res://scenes/default_env.tres" id="1_env"]
 [ext_resource type="Script" uid="uid://dabocdof8wh" path="res://scripts/prop_loader.gd" id="3_props"]
 [ext_resource type="Script" uid="uid://b0lyoixlu4w8i" path="res://scripts/player.gd" id="4_player"]
-[ext_resource type="PackedScene" uid="uid://dfcss3cswkowl" path="res://assets/models/curved_desk.glb" id="4_qkpxi"]
-[ext_resource type="PackedScene" uid="uid://rcael5760w45" path="res://assets/models/leather_armchair.glb" id="5_5q0nq"]
+[ext_resource type="PackedScene" uid="uid://dbxq4s570s7nl" path="res://assets/models/curved_desk.glb" id="4_qkpxi"]
+[ext_resource type="PackedScene" uid="uid://d31ojxkwa22of" path="res://assets/models/leather_armchair.glb" id="5_5q0nq"]
 [ext_resource type="Script" uid="uid://plgtktsu6jvn" path="res://scripts/ricky.gd" id="5_ricky"]
-[ext_resource type="PackedScene" uid="uid://bqq31evkp55h5" path="res://assets/models/coffee_table.glb" id="6_dgi5k"]
+[ext_resource type="PackedScene" uid="uid://dhiw8jht4cp8u" path="res://assets/models/coffee_table.glb" id="6_dgi5k"]
 [ext_resource type="Script" uid="uid://bnxvdsu7capyd" path="res://scripts/director.gd" id="6_director"]
-[ext_resource type="PackedScene" uid="uid://c256xj0ec67uv" path="res://assets/models/marble_bust.glb" id="7_j8jky"]
-[ext_resource type="PackedScene" uid="uid://6qlio7xsw8uh" path="res://assets/models/marble_bust_roman.glb" id="8_kmb1v"]
-[ext_resource type="PackedScene" uid="uid://cuv5mjv7f4bbj" path="res://assets/models/marble_bust_stoic.glb" id="9_fuf3a"]
-[ext_resource type="PackedScene" uid="uid://cbu74tklygi07" path="res://assets/models/marble_bust_general.glb" id="10_pibwh"]
-[ext_resource type="PackedScene" uid="uid://xx5or2lmvdib" path="res://assets/models/oil_derrick.glb" id="11_c6pm6"]
-[ext_resource type="PackedScene" uid="uid://cffjx1peca4rq" path="res://assets/models/power_line_tower.glb" id="12_5he1u"]
-[ext_resource type="PackedScene" uid="uid://c2mvi3ck4drgr" path="res://assets/models/factory_diorama.glb" id="13_5poiv"]
-[ext_resource type="PackedScene" uid="uid://2sgvonutpt4u" path="res://assets/models/vintage_train.glb" id="14_2cjbq"]
-[ext_resource type="PackedScene" uid="uid://dqx637c81deud" path="res://assets/models/steam_engine.glb" id="15_chjal"]
-[ext_resource type="PackedScene" uid="uid://bxse4esyrva7d" path="res://assets/models/skyscraper_empire.glb" id="16_cjqg0"]
-[ext_resource type="PackedScene" uid="uid://dokfln5c0qkso" path="res://assets/models/skyscraper_chrysler.glb" id="17_vchkt"]
-[ext_resource type="PackedScene" uid="uid://qnwy18n5plh3" path="res://assets/models/skyscraper_woolworth.glb" id="18_txyw0"]
-[ext_resource type="PackedScene" uid="uid://kvmqjbm0tdrb" path="res://assets/models/artdeco_skyscraper.glb" id="19_vc5cj"]
-[ext_resource type="PackedScene" uid="uid://dwbdfj54vg4qf" path="res://assets/models/tall_bookshelf.glb" id="20_nvyfr"]
-[ext_resource type="PackedScene" uid="uid://dj8uorbm1dpfo" path="res://assets/models/book_stack.glb" id="21_ty1g6"]
-[ext_resource type="PackedScene" uid="uid://dppv4fdsi7b48" path="res://assets/models/antique_clock.glb" id="22_j2jfr"]
-[ext_resource type="PackedScene" uid="uid://cwyohcvmasivh" path="res://assets/models/desk_lamp.glb" id="23_bjg73"]
-[ext_resource type="PackedScene" uid="uid://ci1svjtvrp6at" path="res://assets/models/picture_frame.glb" id="24_bu4jf"]
-[ext_resource type="PackedScene" uid="uid://4awqdw0ospw2" path="res://assets/models/workbench.glb" id="25_o7ddy"]
-[ext_resource type="PackedScene" uid="uid://bsakdlhyx5bk6" path="res://assets/models/framed_world_map.glb" id="26_0loja"]
-[ext_resource type="PackedScene" uid="uid://bntujvhsushsh" path="res://assets/models/giant_gear.glb" id="27_ids8r"]
+[ext_resource type="PackedScene" uid="uid://csqwwn1l8d01j" path="res://assets/models/marble_bust.glb" id="7_j8jky"]
+[ext_resource type="PackedScene" uid="uid://b2bgwj48cbrui" path="res://assets/models/marble_bust_roman.glb" id="8_kmb1v"]
+[ext_resource type="PackedScene" uid="uid://bqaicpftxi4fp" path="res://assets/models/marble_bust_stoic.glb" id="9_fuf3a"]
+[ext_resource type="PackedScene" uid="uid://cag2lbi3nmmys" path="res://assets/models/marble_bust_general.glb" id="10_pibwh"]
+[ext_resource type="PackedScene" uid="uid://c3l2giup7q8gy" path="res://assets/models/oil_derrick.glb" id="11_c6pm6"]
+[ext_resource type="PackedScene" uid="uid://1o1lawbysb6x" path="res://assets/models/power_line_tower.glb" id="12_5he1u"]
+[ext_resource type="PackedScene" uid="uid://2ablgkn64u8s" path="res://assets/models/factory_diorama.glb" id="13_5poiv"]
+[ext_resource type="PackedScene" uid="uid://ny1h6ch5u5pa" path="res://assets/models/vintage_train.glb" id="14_2cjbq"]
+[ext_resource type="PackedScene" uid="uid://bd2p46lx541h2" path="res://assets/models/steam_engine.glb" id="15_chjal"]
+[ext_resource type="PackedScene" uid="uid://dy0etp2pigs61" path="res://assets/models/skyscraper_empire.glb" id="16_cjqg0"]
+[ext_resource type="PackedScene" uid="uid://cje6v7xlijpu3" path="res://assets/models/skyscraper_chrysler.glb" id="17_vchkt"]
+[ext_resource type="PackedScene" uid="uid://bpilclnxs88as" path="res://assets/models/skyscraper_woolworth.glb" id="18_txyw0"]
+[ext_resource type="PackedScene" uid="uid://b5ccnmdy7xgbf" path="res://assets/models/artdeco_skyscraper.glb" id="19_vc5cj"]
+[ext_resource type="PackedScene" uid="uid://xtdklhtyk08m" path="res://assets/models/tall_bookshelf.glb" id="20_nvyfr"]
+[ext_resource type="PackedScene" uid="uid://dr2a1xdul8q4e" path="res://assets/models/book_stack.glb" id="21_ty1g6"]
+[ext_resource type="PackedScene" uid="uid://cqsa8qhmrraws" path="res://assets/models/antique_clock.glb" id="22_j2jfr"]
+[ext_resource type="PackedScene" uid="uid://b1paamf62cs6l" path="res://assets/models/desk_lamp.glb" id="23_bjg73"]
+[ext_resource type="PackedScene" uid="uid://yqo621l0708j" path="res://assets/models/picture_frame.glb" id="24_bu4jf"]
+[ext_resource type="PackedScene" uid="uid://qhr40nlobv4o" path="res://assets/models/workbench.glb" id="25_o7ddy"]
+[ext_resource type="PackedScene" uid="uid://dyx03uvnj06x1" path="res://assets/models/framed_world_map.glb" id="26_0loja"]
+[ext_resource type="PackedScene" uid="uid://d28obslvf658b" path="res://assets/models/giant_gear.glb" id="27_ids8r"]
 [ext_resource type="PackedScene" uid="uid://pr7hue4kdqy1" path="res://assets/models/ricky_walk.glb" id="30_rickwalk"]
 [ext_resource type="Script" uid="uid://cnfp3w8cxpkij" path="res://scripts/vr_player.gd" id="31_vrplayer"]
-[ext_resource type="PackedScene" uid="uid://baqea857d7qqa" path="res://assets/models/ricky_set.glb" id="32_rickyset"]
 [ext_resource type="PackedScene" uid="uid://b5ehrat8t4qd7" path="res://scenes/lights/spotlight_truss.tscn" id="33_truss"]
-[ext_resource type="PackedScene" path="res://scenes/lights/floor_light.tscn" id="34_floorlight"]
+[ext_resource type="PackedScene" uid="uid://d0pe7khwcw08t" path="res://scenes/lights/floor_light.tscn" id="34_floorlight"]
+[ext_resource type="PackedScene" uid="uid://bexvc1d64vokq" path="res://set_start_optimized.glb" id="34_j8jky"]
+[ext_resource type="PackedScene" uid="uid://dbcgu5ugynh0j" path="res://Studio_desk (2).glb" id="35_kmb1v"]
+
+[sub_resource type="FastNoiseLite" id="FastNoiseLite_concrete"]
+frequency = 0.08
+
+[sub_resource type="NoiseTexture2D" id="NoiseTexture2D_concrete"]
+noise = SubResource("FastNoiseLite_concrete")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_concrete"]
+albedo_color = Color(0.45, 0.45, 0.43, 1)
+albedo_texture = SubResource("NoiseTexture2D_concrete")
+roughness = 0.95
+uv1_scale = Vector3(8, 8, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_concrete_floor"]
+material = SubResource("StandardMaterial3D_concrete")
+size = Vector3(24, 0.25, 24)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_concrete_floor"]
+size = Vector3(180, 0.25, 248)
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_pviwa"]
 size = Vector3(1.911306, 0.81044114, 0.9200081)
@@ -79,7 +99,16 @@ size = Vector3(0.05, 0.04, 0.16)
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1776410315]
 environment = ExtResource("1_env")
 
-[node name="RickySet" parent="." unique_id=814147206 instance=ExtResource("32_rickyset")]
+[node name="ConcreteFloorPlatform" type="StaticBody3D" parent="." unique_id=925310613]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.125, 0)
+
+[node name="Mesh" type="MeshInstance3D" parent="ConcreteFloorPlatform" unique_id=596375149]
+transform = Transform3D(6.4655976, 0, 0, 0, 1, 0, 0, 0, 9.591965, 0, -0.08589935, -7)
+mesh = SubResource("BoxMesh_concrete_floor")
+
+[node name="Collision" type="CollisionShape3D" parent="ConcreteFloorPlatform" unique_id=1002977813]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0.9000001, -1)
+shape = SubResource("BoxShape3D_concrete_floor")
 
 [node name="LightingRig" type="Node3D" parent="." unique_id=1595009622]
 
@@ -105,13 +134,13 @@ script = ExtResource("3_props")
 transform = Transform3D(1.7788883, 0, 0, 0, 1.7788883, 0, 0, 0, 1.7788883, 0, 0.35, -1)
 
 [node name="curved_desk" parent="Props/curved_desk" unique_id=1313742518 instance=ExtResource("4_qkpxi")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.40618905, 0)
+transform = Transform3D(0.99999994, 0, 0, 0, 0.99999994, 0, 0, 0, 0.99999994, 0, 4.302785, 0)
 
 [node name="@StaticBody3D@21791" type="StaticBody3D" parent="Props/curved_desk" unique_id=389920045]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0010370016, 0.40522057, -0.0011049509)
 
 [node name="@CollisionShape3D@21792" type="CollisionShape3D" parent="Props/curved_desk/@StaticBody3D@21791" unique_id=81320833]
-transform = Transform3D(0.9999997, 0, 0, 0, 0.9999997, 0, 0, 0, 0.9999997, 0, 0, 0)
+transform = Transform3D(0.9999997, 0, 0, 0, 0.9999997, 0, 0, 0, 0.9999997, 0, 3.8955069, 0)
 shape = SubResource("BoxShape3D_pviwa")
 
 [node name="leather_armchair_l" type="Node3D" parent="Props" unique_id=671543990]
@@ -335,9 +364,10 @@ transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0
 script = ExtResource("5_ricky")
 
 [node name="RickyMesh" parent="Ricky" unique_id=55609234 instance=ExtResource("30_rickwalk")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 6.3548474, 0)
 
 [node name="RickyCollision" type="CollisionShape3D" parent="Ricky" unique_id=1876543201]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.75080645, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 6.980408, 0)
 shape = SubResource("CapsuleShape3D_ricky")
 
 [node name="Director" type="Node" parent="." unique_id=1923766976]
@@ -379,3 +409,9 @@ pose = &"aim"
 [node name="RightMesh" type="MeshInstance3D" parent="VRPlayer/RightController" unique_id=1790350635]
 material_override = SubResource("StandardMaterial3D_vrcontroller")
 mesh = SubResource("BoxMesh_vrcontroller")
+
+[node name="set_start_optimized" parent="." unique_id=296427945 instance=ExtResource("34_j8jky")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.2832794, 0.5264931, 18.13281)
+
+[node name="Studio_desk (2)" parent="." unique_id=2125903718 instance=ExtResource("35_kmb1v")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 1.1999999, 18)
