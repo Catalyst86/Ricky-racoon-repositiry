@@ -1,0 +1,170 @@
+{
+  "oil_derrick": {
+    "preview_task_id": "019db739-b0ae-71e1-aac7-22698f1ca219",
+    "downloaded": true,
+    "glb_path": "C:\\Users\\danie\\Desktop\\Ricky racoon\\meshy\\..\\assets\\models\\oil_derrick.glb",
+    "refine_task_id": "019db9c6-5abc-755a-bc60-b69e47c7562c",
+    "refined": true
+  },
+  "antique_clock": {
+    "preview_task_id": "019db739-b0ad-77f1-b6d0-772c6b41cb02",
+    "downloaded": true,
+    "glb_path": "C:\\Users\\danie\\Desktop\\Ricky racoon\\meshy\\..\\assets\\models\\antique_clock.glb",
+    "refine_task_id": "019db9c6-5a9c-7eff-89b6-9d3bddeb0351",
+    "refined": true
+  },
+  "curved_desk": {
+    "preview_task_id": "019db739-b0ae-7b15-94ef-b4899ca58058",
+    "downloaded": true,
+    "glb_path": "C:\\Users\\danie\\Desktop\\Ricky racoon\\meshy\\..\\assets\\models\\curved_desk.glb",
+    "refine_task_id": "019db9c6-5a9c-755a-a383-1c91aa9b8882",
+    "refined": true
+  },
+  "marble_bust": {
+    "preview_task_id": "019db739-b0ae-71e0-96e2-4ac69d165f2c",
+    "downloaded": true,
+    "glb_path": "C:\\Users\\danie\\Desktop\\Ricky racoon\\meshy\\..\\assets\\models\\marble_bust.glb",
+    "refine_task_id": "019db9c6-5abc-7eff-ad0a-03451b74c8d0",
+    "refined": true
+  },
+  "tall_bookshelf": {
+    "preview_task_id": "019db739-b0ab-71de-8175-08e126922c04",
+    "downloaded": true,
+    "glb_path": "C:\\Users\\danie\\Desktop\\Ricky racoon\\meshy\\..\\assets\\models\\tall_bookshelf.glb",
+    "refine_task_id": "019db9c6-5ab2-7f3f-9d05-efe7a645850c",
+    "refined": true
+  },
+  "leather_armchair": {
+    "preview_task_id": "019db739-b0ad-71df-bfd3-e0ee7d242e7a",
+    "downloaded": true,
+    "glb_path": "C:\\Users\\danie\\Desktop\\Ricky racoon\\meshy\\..\\assets\\models\\leather_armchair.glb",
+    "refine_task_id": "019db9c6-5aab-755a-be90-de3a055a6221",
+    "refined": true
+  },
+  "artdeco_skyscraper": {
+    "preview_task_id": "019db73b-7e14-7220-9e78-7a11511a47c4",
+    "downloaded": true,
+    "glb_path": "C:\\Users\\danie\\Desktop\\Ricky racoon\\meshy\\..\\assets\\models\\artdeco_skyscraper.glb",
+    "refine_task_id": "019db9c7-b926-7f8c-a864-63f887b1723f",
+    "refined": true
+  },
+  "coffee_table": {
+    "preview_task_id": "019db73b-839d-7c7a-9f59-21a21acf2cc3",
+    "downloaded": true,
+    "glb_path": "C:\\Users\\danie\\Desktop\\Ricky racoon\\meshy\\..\\assets\\models\\coffee_table.glb",
+    "refine_task_id": "019db9c7-bb57-7f54-9c53-bdbd9e0f1761",
+    "refined": true
+  },
+  "workbench": {
+    "preview_task_id": "019db73c-9a4c-7b87-b481-bcb0c249a19d",
+    "downloaded": true,
+    "glb_path": "C:\\Users\\danie\\Desktop\\Ricky racoon\\meshy\\..\\assets\\models\\workbench.glb",
+    "refine_task_id": "019db9c7-bca2-7fd2-8151-0d761c7cf08b",
+    "refined": true
+  },
+  "framed_world_map": {
+    "preview_task_id": "019db73c-ba7e-786f-8d79-beb10d8f63aa",
+    "downloaded": true,
+    "glb_path": "C:\\Users\\danie\\Desktop\\Ricky racoon\\meshy\\..\\assets\\models\\framed_world_map.glb",
+    "refine_task_id": "019db9c7-dcfd-75e7-b64f-790c594a2836",
+    "refined": true
+  },
+  "giant_gear": {
+    "preview_task_id": "019db73d-6b4c-7879-bf20-7435b98d3ef7",
+    "downloaded": true,
+    "glb_path": "C:\\Users\\danie\\Desktop\\Ricky racoon\\meshy\\..\\assets\\models\\giant_gear.glb",
+    "refine_task_id": "019db9c7-ddcd-7f64-ba44-fa1c40df0fb6",
+    "refined": true
+  },
+  "power_line_tower": {
+    "preview_task_id": "019db73d-d00b-7b91-a65c-99be03c69e1f",
+    "downloaded": true,
+    "glb_path": "C:\\Users\\danie\\Desktop\\Ricky racoon\\meshy\\..\\assets\\models\\power_line_tower.glb",
+    "refine_task_id": "019db9c7-decc-7fd7-b2fe-2b638f3ef5b1",
+    "refined": true
+  },
+  "skyscraper_woolworth": {
+    "preview_task_id": "019db9b2-3726-7961-8c85-a145659c6cb8",
+    "downloaded": true,
+    "glb_path": "C:\\Users\\danie\\Desktop\\Ricky racoon\\meshy\\..\\assets\\models\\skyscraper_woolworth.glb",
+    "refine_task_id": "019db9c8-da56-7044-828e-a24cdd6ac87a",
+    "refined": true
+  },
+  "marble_bust_general": {
+    "preview_task_id": "019db9b2-3726-7b1b-92be-6f849a899f00",
+    "downloaded": true,
+    "glb_path": "C:\\Users\\danie\\Desktop\\Ricky racoon\\meshy\\..\\assets\\models\\marble_bust_general.glb",
+    "refine_task_id": "019db9c8-fdd6-7fb6-aab0-c40694e2ae9b",
+    "refined": true
+  },
+  "skyscraper_chrysler": {
+    "preview_task_id": "019db9b2-3729-7021-ba0c-54e4b01600c0",
+    "downloaded": true,
+    "glb_path": "C:\\Users\\danie\\Desktop\\Ricky racoon\\meshy\\..\\assets\\models\\skyscraper_chrysler.glb",
+    "refine_task_id": "019db9c8-ffc7-7fba-a595-622341b72924",
+    "refined": true
+  },
+  "marble_bust_roman": {
+    "preview_task_id": "019db9b2-370b-7021-a49f-82b0092c42c4",
+    "downloaded": true,
+    "glb_path": "C:\\Users\\danie\\Desktop\\Ricky racoon\\meshy\\..\\assets\\models\\marble_bust_roman.glb",
+    "refine_task_id": "019db9c9-003d-7fba-b971-5b5854515060",
+    "refined": true
+  },
+  "skyscraper_empire": {
+    "preview_task_id": "019db9b2-3712-7021-8c26-781b613704ba",
+    "downloaded": true,
+    "glb_path": "C:\\Users\\danie\\Desktop\\Ricky racoon\\meshy\\..\\assets\\models\\skyscraper_empire.glb",
+    "refine_task_id": "019db9c9-3f51-7016-8382-51541b1982c5",
+    "refined": true
+  },
+  "marble_bust_stoic": {
+    "preview_task_id": "019db9b2-3721-7021-b0a2-5e8964fcdaea",
+    "downloaded": true,
+    "glb_path": "C:\\Users\\danie\\Desktop\\Ricky racoon\\meshy\\..\\assets\\models\\marble_bust_stoic.glb",
+    "refine_task_id": "019db9c9-4631-7017-9de4-05ec4c819a62",
+    "refined": true
+  },
+  "factory_diorama": {
+    "preview_task_id": "019db9b3-7623-7086-85e3-f31e483d73e6",
+    "downloaded": true,
+    "glb_path": "C:\\Users\\danie\\Desktop\\Ricky racoon\\meshy\\..\\assets\\models\\factory_diorama.glb",
+    "refine_task_id": "019db9ca-3cf2-764d-92c6-164e18848ab9",
+    "refined": true
+  },
+  "book_stack": {
+    "preview_task_id": "019db9b4-2284-7b06-bea9-3df5050acb90",
+    "downloaded": true,
+    "glb_path": "C:\\Users\\danie\\Desktop\\Ricky racoon\\meshy\\..\\assets\\models\\book_stack.glb",
+    "refine_task_id": "019db9ca-5d36-764d-850f-3dad922044db",
+    "refined": true
+  },
+  "desk_lamp": {
+    "preview_task_id": "019db9b4-40d1-7b0d-b17c-469ca4e7a05c",
+    "downloaded": true,
+    "glb_path": "C:\\Users\\danie\\Desktop\\Ricky racoon\\meshy\\..\\assets\\models\\desk_lamp.glb",
+    "refine_task_id": "019db9ca-5e6a-7069-a2de-052a99c09890",
+    "refined": true
+  },
+  "vintage_train": {
+    "preview_task_id": "019db9b4-60da-79da-bde4-a6dcf943f521",
+    "downloaded": true,
+    "glb_path": "C:\\Users\\danie\\Desktop\\Ricky racoon\\meshy\\..\\assets\\models\\vintage_train.glb",
+    "refine_task_id": "019db9ca-9f9a-70b0-bc40-4c9a47c54b44",
+    "refined": true
+  },
+  "picture_frame": {
+    "preview_task_id": "019db9b4-6532-79db-9f1a-20ac6b327b69",
+    "downloaded": true,
+    "glb_path": "C:\\Users\\danie\\Desktop\\Ricky racoon\\meshy\\..\\assets\\models\\picture_frame.glb",
+    "refine_task_id": "019db9ca-a259-7099-bfd1-1588a522c15d",
+    "refined": true
+  },
+  "steam_engine": {
+    "preview_task_id": "019db9b4-cb2f-7b23-ad88-50a15c3f6c5b",
+    "downloaded": true,
+    "glb_path": "C:\\Users\\danie\\Desktop\\Ricky racoon\\meshy\\..\\assets\\models\\steam_engine.glb",
+    "refine_task_id": "019db9ca-c5c8-709f-b32a-32051bf6550c",
+    "refined": true
+  }
+}

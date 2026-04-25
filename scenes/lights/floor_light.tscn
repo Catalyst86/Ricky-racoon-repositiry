@@ -1,0 +1,94 @@
+[gd_scene format=3 uid="uid://d0pe7khwcw08t"]
+
+[ext_resource type="Script" path="res://scripts/light_fixture.gd" id="1_fixture"]
+
+[sub_resource type="CylinderMesh" id="StandPole"]
+top_radius = 0.025
+bottom_radius = 0.04
+height = 1.8
+radial_segments = 12
+
+[sub_resource type="CylinderMesh" id="StandFoot"]
+top_radius = 0.02
+bottom_radius = 0.025
+height = 0.7
+radial_segments = 8
+
+[sub_resource type="CylinderMesh" id="LightCan"]
+top_radius = 0.13
+bottom_radius = 0.18
+height = 0.32
+radial_segments = 16
+
+[sub_resource type="CylinderMesh" id="LensDisc"]
+top_radius = 0.16
+bottom_radius = 0.16
+height = 0.012
+radial_segments = 16
+
+[sub_resource type="StandardMaterial3D" id="HousingMat"]
+albedo_color = Color(0.1, 0.1, 0.11, 1)
+roughness = 0.4
+metallic = 0.85
+
+[sub_resource type="StandardMaterial3D" id="LensMat"]
+albedo_color = Color(1.0, 0.85, 0.7, 1)
+emission_enabled = true
+emission = Color(1.0, 0.85, 0.7, 1)
+emission_energy_multiplier = 1.2
+roughness = 0.5
+
+[sub_resource type="CapsuleShape3D" id="StandShape"]
+radius = 0.05
+height = 1.8
+
+[node name="FloorLight" type="Node3D"]
+script = ExtResource("1_fixture")
+
+[node name="Pole" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9, 0)
+mesh = SubResource("StandPole")
+material_override = SubResource("HousingMat")
+
+[node name="StandCollision" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StandCollision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9, 0)
+shape = SubResource("StandShape")
+
+[node name="Foot1" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.7660445, 0, 0.6427876, -0.21984632, 0.9396926, 0.26200265, -0.6040228, -0.34202012, 0.7198463, 0, 0, 0)
+mesh = SubResource("StandFoot")
+material_override = SubResource("HousingMat")
+
+[node name="Foot2" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.7660445, 0, -0.6427876, 0.21984634, 0.9396926, 0.26200268, 0.604023, -0.342020, 0.7198463, 0, 0, 0)
+mesh = SubResource("StandFoot")
+material_override = SubResource("HousingMat")
+
+[node name="Foot3" type="MeshInstance3D" parent="."]
+transform = Transform3D(-1, 0, 8.7423e-08, 0, 0.9396926, 0.342020, -8.215e-08, 0.342020, -0.939692, 0, 0, 0)
+mesh = SubResource("StandFoot")
+material_override = SubResource("HousingMat")
+
+[node name="LightHead" type="Node3D" parent="."]
+transform = Transform3D(0.96126175, 0.27563736, 0, -0.27563736, 0.96126175, 0, 0, 0, 1, 0, 1.85, 0)
+
+[node name="Can" type="MeshInstance3D" parent="LightHead"]
+transform = Transform3D(1, 0, 0, 0, -4.371e-08, 1, 0, -1, -4.371e-08, 0, 0, 0.18)
+mesh = SubResource("LightCan")
+material_override = SubResource("HousingMat")
+
+[node name="Lens" type="MeshInstance3D" parent="LightHead"]
+transform = Transform3D(1, 0, 0, 0, -4.371e-08, 1, 0, -1, -4.371e-08, 0, 0, 0.34)
+mesh = SubResource("LensDisc")
+material_override = SubResource("LensMat")
+metadata/glows = true
+
+[node name="SpotLight3D" type="SpotLight3D" parent="LightHead"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.34)
+shadow_enabled = true
+spot_range = 14.0
+spot_angle = 40.0
+light_color = Color(1, 0.85, 0.7, 1)
+light_energy = 10.0

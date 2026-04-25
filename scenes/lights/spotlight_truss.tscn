@@ -1,0 +1,158 @@
+[gd_scene load_steps=11 format=3 uid="uid://cw1ricky1truss"]
+
+[ext_resource type="Script" path="res://scripts/light_fixture.gd" id="1_fixture"]
+
+[sub_resource type="CylinderMesh" id="TrussBar"]
+top_radius = 0.04
+bottom_radius = 0.04
+height = 2.4
+radial_segments = 12
+
+[sub_resource type="CylinderMesh" id="LightCan"]
+top_radius = 0.09
+bottom_radius = 0.13
+height = 0.28
+radial_segments = 16
+
+[sub_resource type="BoxMesh" id="Yoke"]
+size = Vector3(0.05, 0.18, 0.05)
+
+[sub_resource type="CylinderMesh" id="LensDisc"]
+top_radius = 0.115
+bottom_radius = 0.115
+height = 0.01
+radial_segments = 16
+
+[sub_resource type="StandardMaterial3D" id="HousingMat"]
+albedo_color = Color(0.12, 0.12, 0.13, 1)
+roughness = 0.45
+metallic = 0.85
+
+[sub_resource type="StandardMaterial3D" id="LensMat"]
+albedo_color = Color(1.0, 0.85, 0.7, 1)
+emission_enabled = true
+emission = Color(1.0, 0.85, 0.7, 1)
+emission_energy_multiplier = 1.2
+roughness = 0.5
+
+[sub_resource type="CylinderShape3D" id="TrussShape"]
+height = 2.4
+radius = 0.06
+
+[node name="SpotlightTruss" type="Node3D"]
+script = ExtResource("1_fixture")
+
+[node name="TrussBar" type="MeshInstance3D" parent="."]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, 0, 0)
+mesh = SubResource("TrussBar")
+material_override = SubResource("HousingMat")
+
+[node name="TrussCollision" type="StaticBody3D" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="TrussCollision"]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, 0, 0)
+shape = SubResource("TrussShape")
+
+[node name="Light1" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.9, -0.05, 0)
+
+[node name="Yoke" type="MeshInstance3D" parent="Light1"]
+mesh = SubResource("Yoke")
+material_override = SubResource("HousingMat")
+
+[node name="Can" type="MeshInstance3D" parent="Light1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.22, 0)
+mesh = SubResource("LightCan")
+material_override = SubResource("HousingMat")
+
+[node name="Lens" type="MeshInstance3D" parent="Light1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.36, 0)
+mesh = SubResource("LensDisc")
+material_override = SubResource("LensMat")
+metadata/glows = true
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Light1"]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, -0.36, 0)
+shadow_enabled = true
+spot_range = 12.0
+spot_angle = 35.0
+light_color = Color(1, 0.85, 0.7, 1)
+light_energy = 8.0
+
+[node name="Light2" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.3, -0.05, 0)
+
+[node name="Yoke" type="MeshInstance3D" parent="Light2"]
+mesh = SubResource("Yoke")
+material_override = SubResource("HousingMat")
+
+[node name="Can" type="MeshInstance3D" parent="Light2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.22, 0)
+mesh = SubResource("LightCan")
+material_override = SubResource("HousingMat")
+
+[node name="Lens" type="MeshInstance3D" parent="Light2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.36, 0)
+mesh = SubResource("LensDisc")
+material_override = SubResource("LensMat")
+metadata/glows = true
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Light2"]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, -0.36, 0)
+shadow_enabled = true
+spot_range = 12.0
+spot_angle = 35.0
+light_color = Color(1, 0.85, 0.7, 1)
+light_energy = 8.0
+
+[node name="Light3" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.3, -0.05, 0)
+
+[node name="Yoke" type="MeshInstance3D" parent="Light3"]
+mesh = SubResource("Yoke")
+material_override = SubResource("HousingMat")
+
+[node name="Can" type="MeshInstance3D" parent="Light3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.22, 0)
+mesh = SubResource("LightCan")
+material_override = SubResource("HousingMat")
+
+[node name="Lens" type="MeshInstance3D" parent="Light3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.36, 0)
+mesh = SubResource("LensDisc")
+material_override = SubResource("LensMat")
+metadata/glows = true
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Light3"]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, -0.36, 0)
+shadow_enabled = true
+spot_range = 12.0
+spot_angle = 35.0
+light_color = Color(1, 0.85, 0.7, 1)
+light_energy = 8.0
+
+[node name="Light4" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.9, -0.05, 0)
+
+[node name="Yoke" type="MeshInstance3D" parent="Light4"]
+mesh = SubResource("Yoke")
+material_override = SubResource("HousingMat")
+
+[node name="Can" type="MeshInstance3D" parent="Light4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.22, 0)
+mesh = SubResource("LightCan")
+material_override = SubResource("HousingMat")
+
+[node name="Lens" type="MeshInstance3D" parent="Light4"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.36, 0)
+mesh = SubResource("LensDisc")
+material_override = SubResource("LensMat")
+metadata/glows = true
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Light4"]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, -0.36, 0)
+shadow_enabled = true
+spot_range = 12.0
+spot_angle = 35.0
+light_color = Color(1, 0.85, 0.7, 1)
+light_energy = 8.0

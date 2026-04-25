@@ -1,0 +1,42 @@
+[gd_resource type="Environment" format=3 uid="uid://cw1ricky1env"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_1"]
+sky_top_color = Color(0.06, 0.04, 0.03, 1)
+sky_horizon_color = Color(0.18, 0.09, 0.05, 1)
+ground_bottom_color = Color(0.02, 0.01, 0.01, 1)
+ground_horizon_color = Color(0.08, 0.05, 0.03, 1)
+energy_multiplier = 0.4
+
+[sub_resource type="Sky" id="Sky_1"]
+sky_material = SubResource("ProceduralSkyMaterial_1")
+
+[resource]
+background_mode = 1
+background_color = Color(0.04, 0.025, 0.015, 1)
+sky = SubResource("Sky_1")
+ambient_light_source = 2
+ambient_light_color = Color(0.45, 0.3, 0.2, 1)
+ambient_light_sky_contribution = 0.0
+ambient_light_energy = 0.35
+reflected_light_source = 2
+tonemap_mode = 2
+tonemap_exposure = 1.1
+tonemap_white = 1.1
+ssao_enabled = true
+ssao_radius = 0.8
+ssao_intensity = 2.5
+ssil_enabled = true
+glow_enabled = true
+glow_intensity = 0.7
+glow_strength = 1.05
+glow_bloom = 0.15
+glow_hdr_scale = 2.5
+fog_enabled = true
+fog_light_color = Color(0.5, 0.3, 0.2, 1)
+fog_light_energy = 0.3
+fog_density = 0.003
+volumetric_fog_enabled = true
+volumetric_fog_density = 0.008
+volumetric_fog_albedo = Color(0.8, 0.55, 0.35, 1)
+volumetric_fog_emission = Color(0.3, 0.15, 0.08, 1)
+volumetric_fog_emission_energy = 0.1

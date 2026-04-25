@@ -1,0 +1,17 @@
+# Godot 4 import cache & artifacts
+.godot/
+.import/
+*.import
+export.cfg
+export_presets.cfg
+
+# Meshy logs / cache (state files like tasks.json kept so re-runs don't re-charge)
+meshy/__pycache__/
+meshy/*.log
+
+# Editor / OS
+.vs/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db

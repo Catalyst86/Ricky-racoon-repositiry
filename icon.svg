@@ -1,0 +1,17 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wood" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#6b3820"/>
+      <stop offset="1" stop-color="#361808"/>
+    </linearGradient>
+    <radialGradient id="neon" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffb84a"/>
+      <stop offset="1" stop-color="#c85a10" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="128" height="128" rx="20" fill="url(#wood)"/>
+  <circle cx="64" cy="64" r="50" fill="url(#neon)"/>
+  <circle cx="64" cy="64" r="28" fill="none" stroke="#ffa835" stroke-width="4"/>
+  <text x="64" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="18" fill="#aee4ff">RICKY'S</text>
+  <text x="64" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="18" fill="#ffb04a">RANTS</text>
+</svg>
